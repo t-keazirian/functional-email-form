@@ -1,0 +1,40 @@
+h2 {
+    font-family: "Impact";
+    border-bottom: 1px solid lightgray;
+}
+
+form label {
+    display: flex;
+    margin-bottom: 5px;
+    font-family: Arial Rounded MT Bold;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.item {
+    flex: 1;
+}
+
+form input, 
+form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form textarea {
+    height: 160px;
+}
+
+@media all and (min-width: 800px) {
+    section {
+      padding: 0 10%;
+    }
+    .group {
+      flex-direction: row;
+    }
+  }
